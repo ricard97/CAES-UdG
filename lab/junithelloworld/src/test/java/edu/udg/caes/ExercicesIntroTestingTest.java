@@ -44,7 +44,7 @@ public class ExercicesIntroTestingTest {
 
     @Test
     public void testCountPositive2(){
-        final int result = ExercicesIntroTesting.countPositive(new int []{-4, 2, 0, 2});
+        final int result = ExercicesIntroTesting.countPositive(new int []{-4, 2, 1, 2});
         assertEquals(result, 3);
     }
 
